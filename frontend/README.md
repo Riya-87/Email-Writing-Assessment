@@ -9,6 +9,7 @@ A modern, responsive React web application designed with a premium frosted glass
 Inspired by modern SaaS interfaces:
 - **Atmospheric Palette**: Soft lavender and periwinkle ambient gradients with delicate diffuse glows.
 - **Glassmorphism**: Translucent frosted glass canvas (`backdrop-filter: blur(24px)`), low-contrast white borders, and soft layered shadows.
+- **Dynamic Waves Animation**: Multi-directional organic liquid color wave particle flows creating a fluid ambient backdrop.
 - **Micro-Interactions**: Rounded pill navigation bar, interactive scenario cards, live character/word counters, and visual progress meters for individual rubric criteria.
 
 ---
@@ -40,6 +41,7 @@ Inspired by modern SaaS interfaces:
 - **Framework**: React 19 + Vite 8
 - **Icons**: Lucide React
 - **Styling**: Custom Glassmorphism CSS design system (`src/styles/glass.css`)
+- **Hosting**: Firebase Hosting (`firebase.json`)
 - **State & Session**: Pure React state + anonymous browser `localStorage` UUID session tracking (no login required)
 
 ---
@@ -82,3 +84,9 @@ npm run build
 ```
 
 Production-ready static files are generated in the `dist/` directory.
+
+### 5. Deploy to Firebase Hosting
+
+```bash
+firebase deploy
+```
